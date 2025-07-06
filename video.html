@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Videoand Audio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-sky-300 via-violet-300 to-sky-300 flex items-center justify-center min-h-screen p-6">
+  <div class="max-w-3xl w-full bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center space-y-6">
+
+    <h1 class="text-3xl font-bold text-gray-800">Video and Audio </h1>
+
+    <div class="relative w-full">
+     
+      <video class="w-[800px] h-[350px] rounded-lg border-4 border-gray-300 shadow-md z-0" controls muted>
+        <source src="./poi/Japan in 1 Minute __ Cinematic Travel Video _ The Best Places in Tokyo_ Osaka_ Kyoto and Nara_(720P_60FPS).mp4"video/mp4">
+        <track src="./poi/Japan_Travel_Captions.vtt" kind="subtitles" srclang="en" label="English Subtitles" default>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <audio class="w-full mt-4" controls muted>
+      <source src="./poi/Japan in 1 Minute __ Cinematic Travel Video _ The Best Places in Tokyo_ Osaka_ Kyoto and Nara_(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+</body>
+</html>
